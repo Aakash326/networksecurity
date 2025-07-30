@@ -1,0 +1,13 @@
+prefix=/Users/saiaakash/Documents/mlops/NetworkSecurity/ml-main
+exec_prefix=/Users/saiaakash/Documents/mlops/NetworkSecurity/ml-main
+libdir=/Users/saiaakash/Documents/mlops/NetworkSecurity/ml-main/lib
+sharedlibdir=/Users/saiaakash/Documents/mlops/NetworkSecurity/ml-main/lib
+includedir=/Users/saiaakash/Documents/mlops/NetworkSecurity/ml-main/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
