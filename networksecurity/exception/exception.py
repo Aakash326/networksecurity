@@ -11,7 +11,7 @@ class NetworkSecurityException(Exception):
         if exc_tb is not None:
             self.line_number = exc_tb.tb_lineno
             self.file_name = exc_tb.tb_frame.f_code.co_filename
-        else:
+        else:   
             self.line_number = None
             self.file_name = None
 
