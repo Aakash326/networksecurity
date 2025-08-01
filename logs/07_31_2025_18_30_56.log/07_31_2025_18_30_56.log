@@ -1,4 +1,0 @@
-[ 2025-07-31 18:30:57,804 ] 22 root - INFO - Starting the Network Security pipeline.
-[ 2025-07-31 18:30:59,542 ] 57 root - INFO - Train set shape: (8844, 31), Test set shape: (2211, 31)
-[ 2025-07-31 18:30:59,573 ] 62 root - INFO - exported train and test data successfully
-[ 2025-07-31 18:30:59,573 ] 28 root - INFO - Data ingestion completed.

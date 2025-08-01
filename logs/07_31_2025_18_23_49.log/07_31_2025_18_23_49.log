@@ -1,4 +1,0 @@
-[ 2025-07-31 18:23:51,114 ] 17 root - INFO - Data ingestion started
-[ 2025-07-31 18:23:52,455 ] 57 root - INFO - Train set shape: (8844, 31), Test set shape: (2211, 31)
-[ 2025-07-31 18:23:52,484 ] 62 root - INFO - exported train and test data successfully
-[ 2025-07-31 18:23:52,484 ] 19 root - INFO - Data ingestion completed
