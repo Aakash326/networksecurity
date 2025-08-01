@@ -1,0 +1,11 @@
+[ 2025-07-31 19:31:24,997 ] 22 root - INFO - Starting the Network Security pipeline.
+[ 2025-07-31 19:31:26,195 ] 57 root - INFO - Train set shape: (8844, 31), Test set shape: (2211, 31)
+[ 2025-07-31 19:31:26,225 ] 62 root - INFO - exported train and test data successfully
+[ 2025-07-31 19:31:26,226 ] 28 root - INFO - Data ingestion completed.
+[ 2025-07-31 19:31:26,237 ] 34 root - INFO - Required number of columns from schema: 31
+[ 2025-07-31 19:31:26,237 ] 35 root - INFO - Actual number of columns in dataframe: 31
+[ 2025-07-31 19:31:26,237 ] 36 root - INFO - Dataframe columns: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[ 2025-07-31 19:31:26,237 ] 34 root - INFO - Required number of columns from schema: 31
+[ 2025-07-31 19:31:26,237 ] 35 root - INFO - Actual number of columns in dataframe: 31
+[ 2025-07-31 19:31:26,237 ] 36 root - INFO - Dataframe columns: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report', 'Result']
+[ 2025-07-31 19:31:26,336 ] 33 root - INFO - Data validation completed.
