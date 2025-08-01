@@ -12,7 +12,8 @@ class NetworkSecurityException(Exception):
 # Main execution block for running the data ingestion and validation pipeline
 from networksecurity.components.data_ingestion import DataIngestion
 from networksecurity.components.data_validation import DataValidation
-from networksecurity.entity.config_entity import DataIngestionConfig, DataValidationConfig, TrainingPipelineConfig
+from networksecurity.components.data_transformation import DataTransformation
+from networksecurity.entity.config_entity import DataIngestionConfig, DataValidationConfig, TrainingPipelineConfig, DataTransformationConfig
 from networksecurity.logging.logger import logging
 import sys
 from datetime import datetime
@@ -34,6 +35,13 @@ if __name__ == "__main__":
 
         print("Drift report:")
         print(data_validation_artifact.drift_report_file_path)
+
+        data_transformation_config=DataTransformationConfig(trainingpipelineconfig)
+        logging.info("data Transformation started")
+        data_transformation=DataTransformation(data_validation_artifact,data_transformation_config)
+        data_transformation_artifact=data_transformation.initiate_data_transformation()
+        print(data_transformation_artifact)
+        logging.info("data Transformation completed")
 
     except Exception as e:
         raise NetworkSecurityException(e, sys)
